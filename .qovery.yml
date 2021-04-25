@@ -1,0 +1,11 @@
+---
+application:
+  name: "mineflayerbot"
+  project: "botminecraftconnect"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-mineflayerbot"
+  routes:
+  - application_name: "mineflayerbot"
+    paths:
+    - "/*"
